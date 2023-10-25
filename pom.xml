@@ -51,6 +51,8 @@
         <module>springboot-project/spring-boot-starters/spring-boot-starter-json</module>
         <module>springboot-project/spring-boot-starters/spring-boot-starter-log-aliyun-sls</module>
         <module>springboot-project/spring-boot-starters/spring-boot-starter-kafka</module>
+        <module>springboot-project/spring-boot-starters/spring-boot-starter-log-kafka</module>
+        <module>examples</module>
     </modules>
 
     <properties>
