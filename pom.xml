@@ -21,6 +21,7 @@
         <module>commons-project/commons-metrics</module>
         <module>commons-project/commons-thread</module>
         <module>commons-project/commons-trace</module>
+        <module>cmdbdal</module>
     </modules>
 
     <properties>
