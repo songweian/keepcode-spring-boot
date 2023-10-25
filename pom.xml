@@ -34,6 +34,8 @@
         <module>springboot-project/spring-boot-starters/spring-boot-starter-curdui</module>
         <module>commons-project/commons-netty</module>
         <module>commons-project/commons-httpclient</module>
+        <module>springboot-project/spring-boot-starters/spring-boot-starter-websocket</module>
+        <module>linkdal</module>
     </modules>
 
     <properties>
