@@ -42,6 +42,10 @@
         <module>cmdbdal</module>
         <module>maven-plugin</module>
         <module>springboot-project/spring-boot-starters/spring-boot-starter-datasource</module>
+        <module>springboot-project/spring-boot-starters/spring-boot-starter-feign</module>
+        <module>springboot-project/spring-boot-starters/spring-boot-starter-server-netty</module>
+        <module>springboot-project/spring-boot-starters/spring-boot-starter-server-tomcat</module>
+        <module>springboot-project/spring-boot-starters/spring-boot-starter-server-jetty</module>
     </modules>
 
     <properties>
