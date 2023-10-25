@@ -10,7 +10,6 @@
         <relativePath>../../../pom.xml</relativePath>
     </parent>
 
-    <groupId>work.keepcode.commons</groupId>
     <artifactId>spring-boot-starter-log-kafka</artifactId>
 
     <properties>

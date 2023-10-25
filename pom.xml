@@ -28,19 +28,10 @@
         <module>springboot-project/spring-boot-starters/spring-boot-starter-trace</module>
         <module>springboot-project/spring-boot-starters/spring-boot-starter-crud</module>
         <module>springboot-project/spring-boot-starters/spring-boot-starter-curdui</module>
-        <module>commons-project/commons-netty</module>
-        <module>commons-project/commons-httpclient</module>
         <module>springboot-project/spring-boot-starters/spring-boot-starter-websocket</module>
         <module>springboot-project/spring-boot-starters/spring-boot-starter-id-generator</module>
         <module>springboot-project/spring-boot-starters/spring-boot-starter-dbmq</module>
         <module>springboot-project/spring-boot-starters/spring-boot-starter-cache</module>
-        <module>business</module>
-        <module>business/request-access</module>
-        <module>business/valut</module>
-        <module>business/id-generator</module>
-        <module>linkdal</module>
-        <module>cmdbdal</module>
-        <module>maven-plugin</module>
         <module>springboot-project/spring-boot-starters/spring-boot-starter-datasource</module>
         <module>springboot-project/spring-boot-starters/spring-boot-starter-feign</module>
         <module>springboot-project/spring-boot-starters/spring-boot-starter-server-netty</module>
@@ -52,6 +43,17 @@
         <module>springboot-project/spring-boot-starters/spring-boot-starter-log-aliyun-sls</module>
         <module>springboot-project/spring-boot-starters/spring-boot-starter-kafka</module>
         <module>springboot-project/spring-boot-starters/spring-boot-starter-log-kafka</module>
+        <module>commons-project/commons-netty</module>
+        <module>commons-project/commons-httpclient</module>
+
+        <module>business</module>
+        <module>business/request-access</module>
+        <module>business/valut</module>
+        <module>business/id-generator</module>
+        <module>linkdal</module>
+        <module>cmdbdal</module>
+        <module>maven-plugin</module>
+
         <module>examples</module>
     </modules>
 
