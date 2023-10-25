@@ -12,6 +12,15 @@
         <module>commons-project</module>
         <module>configdal-project</module>
         <module>springboot-project</module>
+        <module>admin-console</module>
+        <module>business</module>
+        <module>business/access</module>
+        <module>business/valut</module>
+        <module>commons-project/commons-servlet</module>
+        <module>commons-project/commons-feign</module>
+        <module>commons-project/commons-metrics</module>
+        <module>commons-project/commons-thread</module>
+        <module>commons-project/commons-trace</module>
     </modules>
 
     <properties>
