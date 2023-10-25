@@ -10,6 +10,11 @@ public sealed interface Result<T> extends Result0 {
         return (None<T>) None.INSTANCE;
     }
 
+    static <T> Error<T> error() {
+        //noinspection unchecked
+        return (Error<T>) Error.INSTANCE;
+    }
+
     @Override
     default boolean isError() {
         return this.getClass().isAssignableFrom(Error.class);
@@ -24,7 +29,7 @@ public sealed interface Result<T> extends Result0 {
         return this.getClass().isAssignableFrom(Some.class);
     }
 
-    final class Some<T> implements Result {
+    final class Some<T> implements Result<T> {
         public final T value;
 
         public Some(T value) {
@@ -36,7 +41,7 @@ public sealed interface Result<T> extends Result0 {
         }
     }
 
-    final class None<T> implements Result {
+    final class None<T> implements Result<T> {
 
         private static final None<?> INSTANCE = new None<>();
 
@@ -44,7 +49,7 @@ public sealed interface Result<T> extends Result0 {
         }
     }
 
-    final class Error<T> implements Result {
+    final class Error<T> implements Result<T> {
 
         private static final Error<?> INSTANCE = new Error<>();
 
