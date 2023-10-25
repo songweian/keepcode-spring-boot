@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>work.keepcode.commons</groupId>
-    <artifactId>access</artifactId>
+    <artifactId>id-generator</artifactId>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>

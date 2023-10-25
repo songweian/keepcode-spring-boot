@@ -7,11 +7,11 @@
         <groupId>work.keepcode</groupId>
         <artifactId>keepcode-project</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../../pom.xml</relativePath>
+        <relativePath>../../../pom.xml</relativePath>
     </parent>
 
     <groupId>work.keepcode.commons</groupId>
-    <artifactId>identity</artifactId>
+    <artifactId>spring-boot-starter-dbmq</artifactId>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>

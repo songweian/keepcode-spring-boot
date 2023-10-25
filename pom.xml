@@ -13,15 +13,11 @@
         <module>configdal-project</module>
         <module>springboot-project</module>
         <module>admin-console</module>
-        <module>business</module>
-        <module>business/access</module>
-        <module>business/valut</module>
         <module>commons-project/commons-servlet</module>
         <module>commons-project/commons-feign</module>
         <module>commons-project/commons-metrics</module>
         <module>commons-project/commons-thread</module>
         <module>commons-project/commons-trace</module>
-        <module>cmdbdal</module>
         <module>protoc</module>
         <module>springboot-project/spring-boot-starters/spring-boot-starter-nacos</module>
         <module>springboot-project/spring-boot-starters/spring-boot-starter-eureka</module>
@@ -35,8 +31,15 @@
         <module>commons-project/commons-netty</module>
         <module>commons-project/commons-httpclient</module>
         <module>springboot-project/spring-boot-starters/spring-boot-starter-websocket</module>
+        <module>springboot-project/spring-boot-starters/spring-boot-starter-id-generator</module>
+        <module>springboot-project/spring-boot-starters/spring-boot-starter-dbmq</module>
+        <module>springboot-project/spring-boot-starters/spring-boot-starter-cache</module>
+        <module>business</module>
+        <module>business/request-access</module>
+        <module>business/valut</module>
+        <module>business/id-generator</module>
         <module>linkdal</module>
-        <module>business/identity</module>
+        <module>cmdbdal</module>
     </modules>
 
     <properties>
