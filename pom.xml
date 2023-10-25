@@ -46,6 +46,8 @@
         <module>springboot-project/spring-boot-starters/spring-boot-starter-server-netty</module>
         <module>springboot-project/spring-boot-starters/spring-boot-starter-server-tomcat</module>
         <module>springboot-project/spring-boot-starters/spring-boot-starter-server-jetty</module>
+        <module>springboot-project/spring-boot-starters/spring-boot-starter-jvm</module>
+        <module>springboot-project/spring-boot-starters/spring-boot-starter-terminal</module>
     </modules>
 
     <properties>
