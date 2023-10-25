@@ -12,7 +12,6 @@
         <module>commons</module>
         <module>configdal</module>
         <module>springboot-project</module>
-        <module>springboot-project</module>
     </modules>
 
     <properties>
