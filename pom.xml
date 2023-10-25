@@ -32,6 +32,8 @@
         <module>springboot-project/spring-boot-starters/spring-boot-starter-trace</module>
         <module>springboot-project/spring-boot-starters/spring-boot-starter-crud</module>
         <module>springboot-project/spring-boot-starters/spring-boot-starter-curdui</module>
+        <module>commons-project/commons-netty</module>
+        <module>commons-project/commons-httpclient</module>
     </modules>
 
     <properties>
