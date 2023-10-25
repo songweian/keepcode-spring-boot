@@ -29,6 +29,9 @@
         <module>springboot-project/spring-boot-starters/spirng-boot-starter-threadpool</module>
         <module>springboot-project/spring-boot-starters/spring-boot-starter-metrics</module>
         <module>springboot-project/spring-boot-starters/spring-boot-starter-actuator</module>
+        <module>springboot-project/spring-boot-starters/spring-boot-starter-trace</module>
+        <module>springboot-project/spring-boot-starters/spring-boot-starter-crud</module>
+        <module>springboot-project/spring-boot-starters/spring-boot-starter-curdui</module>
     </modules>
 
     <properties>
