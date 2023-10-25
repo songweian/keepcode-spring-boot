@@ -22,6 +22,13 @@
         <module>commons-project/commons-thread</module>
         <module>commons-project/commons-trace</module>
         <module>cmdbdal</module>
+        <module>protoc</module>
+        <module>springboot-project/spring-boot-starters/spring-boot-starter-nacos</module>
+        <module>springboot-project/spring-boot-starters/spring-boot-starter-eureka</module>
+        <module>springboot-project/spring-boot-starters/spring-boot-starter-discovery</module>
+        <module>springboot-project/spring-boot-starters/spirng-boot-starter-threadpool</module>
+        <module>springboot-project/spring-boot-starters/spring-boot-starter-metrics</module>
+        <module>springboot-project/spring-boot-starters/spring-boot-starter-actuator</module>
     </modules>
 
     <properties>
