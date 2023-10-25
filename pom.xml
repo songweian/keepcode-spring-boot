@@ -49,6 +49,7 @@
         <module>springboot-project/spring-boot-starters/spring-boot-starter-jvm</module>
         <module>springboot-project/spring-boot-starters/spring-boot-starter-terminal</module>
         <module>springboot-project/spring-boot-starters/spring-boot-starter-json</module>
+        <module>springboot-project/spring-boot-starters/spring-boot-starter-log-aliyun-sls</module>
     </modules>
 
     <properties>
