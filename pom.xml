@@ -41,6 +41,7 @@
         <module>linkdal</module>
         <module>cmdbdal</module>
         <module>maven-plugin</module>
+        <module>springboot-project/spring-boot-starters/spring-boot-starter-datasource</module>
     </modules>
 
     <properties>
