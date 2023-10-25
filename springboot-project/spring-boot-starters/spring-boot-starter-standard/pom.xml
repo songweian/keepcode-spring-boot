@@ -3,17 +3,14 @@
          xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>work.keepcode</groupId>
+        <artifactId>spring-boot-starters</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
-    <groupId>work.keepcode</groupId>
-    <artifactId>keepcode-project</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <modules>
-        <module>commons</module>
-        <module>configdal</module>
-        <module>springboot-project</module>
-        <module>springboot-project</module>
-    </modules>
+    <groupId>work.keepcode.commons</groupId>
+    <artifactId>spring-boot-starter-standard</artifactId>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
