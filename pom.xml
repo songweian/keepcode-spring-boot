@@ -55,6 +55,7 @@
         <module>maven-plugin</module>
 
         <module>examples</module>
+        <module>commons-project/commons-sysutils</module>
     </modules>
 
     <properties>
