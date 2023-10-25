@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>configdal-client</module>
+        <module>configdal-datasource-client</module>
         <module>configdal-datasource-nacos</module>
         <module>configdal-datasource-apollo</module>
         <module>configdal-datasource</module>
