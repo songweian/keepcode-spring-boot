@@ -9,8 +9,8 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>commons</module>
-        <module>configdal</module>
+        <module>commons-project</module>
+        <module>configdal-project</module>
         <module>springboot-project</module>
     </modules>
 
