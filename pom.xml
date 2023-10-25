@@ -48,6 +48,7 @@
         <module>springboot-project/spring-boot-starters/spring-boot-starter-server-jetty</module>
         <module>springboot-project/spring-boot-starters/spring-boot-starter-jvm</module>
         <module>springboot-project/spring-boot-starters/spring-boot-starter-terminal</module>
+        <module>springboot-project/spring-boot-starters/spring-boot-starter-json</module>
     </modules>
 
     <properties>
