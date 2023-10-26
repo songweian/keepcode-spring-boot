@@ -1,4 +1,4 @@
-package work.keepcode.configdal.client;
+package org.opengear.configdal.client;
 
 public class ConfigdalClient {
 

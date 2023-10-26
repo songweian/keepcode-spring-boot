@@ -1,4 +1,4 @@
-package work.keepcode.springboot.demo;
+package org.opengear.springboot.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.SpringBootConfiguration;
