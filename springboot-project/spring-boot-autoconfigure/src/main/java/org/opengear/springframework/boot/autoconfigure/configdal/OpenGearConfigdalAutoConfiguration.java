@@ -1,12 +1,12 @@
 package org.opengear.springframework.boot.autoconfigure.configdal;
 
+import org.opengear.configdal.client.OpenGearConfigClient;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.context.annotation.Bean;
-import org.opengear.configdal.client.OpenGearConfigClient;
 
 @ConditionalOnClass(OpenGearConfigClient.class)
-public class ConfigdalAutoConfiguration {
+public class OpenGearConfigdalAutoConfiguration {
 
     @Bean
     @ConditionalOnMissingBean
