@@ -15,7 +15,7 @@ public class OpenGearTerminalWebSocketConfig implements WebSocketConfigurer {
 
     @Override
     public void registerWebSocketHandlers(WebSocketHandlerRegistry registry) {
-        registry.addHandler(myWebSocketHandler, "/connect")
+        registry.addHandler(myWebSocketHandler, "/ws/terminal/connect")
                 .addInterceptors(new HttpSessionHandshakeInterceptor())
                 .setAllowedOrigins("*");
     }

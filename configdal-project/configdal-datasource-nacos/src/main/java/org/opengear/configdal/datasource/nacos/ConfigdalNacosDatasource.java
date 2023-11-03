@@ -1,9 +1,10 @@
 package org.opengear.configdal.datasource.nacos;
 
+import com.alibaba.nacos.api.config.ConfigService;
 import com.alibaba.nacos.api.exception.NacosException;
-import com.alibaba.nacos.client.config.NacosConfigService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.opengear.configdal.datasource.ConfigDalCofigContent;
 import org.opengear.configdal.datasource.ConfigdalDatasource;
 import org.opengear.configdal.support.ConfigdalExceptionUtils;
 
@@ -11,7 +12,7 @@ import org.opengear.configdal.support.ConfigdalExceptionUtils;
 @Slf4j
 public class ConfigdalNacosDatasource implements ConfigdalDatasource {
 
-    private final NacosConfigService nacosConfigService;
+    private final ConfigService nacosConfigService;
 
     @Override
     public String getContent(String dataId, String group) {
@@ -24,5 +25,11 @@ public class ConfigdalNacosDatasource implements ConfigdalDatasource {
         return config;
     }
 
-
+    @Override
+    public Object get(String key) {
+        String content = getContent("test", "test");
+        log.info("content: {}", content);
+        ConfigDalCofigContent configDalCofigContent = new ConfigDalCofigContent(content);
+        return configDalCofigContent.get(key);
+    }
 }

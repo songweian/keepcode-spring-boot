@@ -29,19 +29,19 @@ class ConfigdalNacosDatasourceTest {
     }
 
     public static void main(String[] args) throws NacosException, InterruptedException {
-        String dataId = "dfp-cloud-idispatch-push-dev.yml";
+        String dataId = "";
         String group = "DEFAULT_GROUP";
         Properties props = new Properties();
 //        props.put(PropertyKeyConst.SERVER_ADDR, serverAddr);
 //        props.setProperty("secretKey", "");
-        props.setProperty("namespace", "csc-cloud-prod");
+        props.setProperty("namespace", "");
 //        props.setProperty("ramRoleName", "");
 //        props.setProperty("username", "");
 //        props.setProperty("enableRemoteSyncConfig", "false");
 //        props.setProperty("configLongPollTimeout", "");
 //        props.setProperty("configRetryTime", "");
 //        props.setProperty("encode", "");
-        props.setProperty("serverAddr", "g7n-qce-nacos.test.chinawayltd.com:30849");
+        props.setProperty("serverAddr", "");
 //        props.setProperty("maxRetry", "");
 //        props.setProperty("clusterName", "");
 //        props.setProperty("password", "");

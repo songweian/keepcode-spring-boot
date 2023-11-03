@@ -46,16 +46,17 @@
         <module>commons-project/commons-netty</module>
         <module>commons-project/commons-httpclient</module>
 
-        <module>business</module>
-        <module>business/request-access</module>
-        <module>business/valut</module>
-        <module>business/id-generator</module>
+        <module>micros</module>
+        <module>micros/request-access</module>
+        <module>micros/valut</module>
+        <module>micros/id-generator</module>
         <module>linkdal</module>
         <module>cmdbdal</module>
         <module>maven-plugin</module>
 
         <module>examples</module>
         <module>commons-project/commons-sysutils</module>
+        <module>micros/h-lang</module>
     </modules>
 
     <properties>

@@ -17,15 +17,21 @@ public class MyWebSocketHandler implements WebSocketHandler {
     @Override
     public void handleMessage(WebSocketSession session, WebSocketMessage<?> message) throws Exception {
         // handle message
-//        String payload = message.getPayload().toString();
-//        String response = "Received message: " + payload;
-        session.sendMessage(new TextMessage("sdf"));
+        Object payload1 = message.getPayload();
+        String payload = message.getPayload().toString();
+        String response = "Received message: " + payload;
+        System.out.println(response);
+//        session.sendMessage(new TextMessage("sdf"));
     }
 
     @Override
     public void handleTransportError(WebSocketSession session, Throwable exception) throws Exception {
         // handle transport error
-        exception.printStackTrace();
+        try {
+            throw exception;
+        } catch (Throwable e) {
+            throw new RuntimeException(e);
+        }
     }
 
     @Override

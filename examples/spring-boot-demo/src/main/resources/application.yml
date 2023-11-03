@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: opengear-spring-boot-demo
+    secret: 123456
+opengear.application:
+  name: opengear-spring-boot-demo
+  secret: 123456
+
+opengear.configdal.nacos:
+    server-addr:
+    namespace:
+    dataId: ""
+    group: DEFAULT_GROUP

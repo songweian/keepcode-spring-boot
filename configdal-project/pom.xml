@@ -17,6 +17,7 @@
         <module>configdal-datasource-server</module>
         <module>configdal-datasource-spring-cloud-config</module>
         <module>configdal-support</module>
+        <module>configdal-examples</module>
     </modules>
 
     <properties>
