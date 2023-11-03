@@ -12,8 +12,6 @@
         <module>commons-project</module>
         <module>configdal-project</module>
         <module>springboot-project</module>
-        <module>dash-ui</module>
-        <module>dash-console</module>
         <module>commons-project/commons-servlet</module>
         <module>commons-project/commons-feign</module>
         <module>commons-project/commons-metrics</module>
@@ -48,18 +46,14 @@
         <module>commons-project/commons-httpclient</module>
 
         <module>micros</module>
-        <module>micros/request-access</module>
-        <module>micros/valut</module>
-        <module>micros/id-generator</module>
         <module>linkdal</module>
         <module>cmdbdal</module>
         <module>maven-plugin</module>
 
         <module>examples</module>
         <module>commons-project/commons-sysutils</module>
-        <module>micros/h-lang</module>
         <module>dash-ui</module>
-        <module>micros/notification</module>
+        <module>dash-console</module>
         <module>open-api</module>
     </modules>
 
