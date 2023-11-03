@@ -59,6 +59,7 @@
         <module>commons-project/commons-sysutils</module>
         <module>micros/h-lang</module>
         <module>dash-ui</module>
+        <module>micros/notification</module>
     </modules>
 
     <properties>
