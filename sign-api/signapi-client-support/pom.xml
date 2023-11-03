@@ -3,10 +3,8 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.opengear.openapi</groupId>
-        <artifactId>open-api</artifactId>
+        <artifactId>sign-api</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>openapi-client</artifactId>
-    <name>Archetype - openapi-client</name>
-    <url>http://maven.apache.org</url>
+    <artifactId>signapi-client-support</artifactId>
 </project>

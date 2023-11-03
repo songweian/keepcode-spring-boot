@@ -54,7 +54,7 @@
         <module>commons-project/commons-sysutils</module>
         <module>dash-ui</module>
         <module>dash-console</module>
-        <module>open-api</module>
+        <module>sign-api</module>
     </modules>
 
     <properties>
