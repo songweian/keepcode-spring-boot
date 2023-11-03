@@ -12,7 +12,8 @@
         <module>commons-project</module>
         <module>configdal-project</module>
         <module>springboot-project</module>
-        <module>admin-console</module>
+        <module>dash-ui</module>
+        <module>dash-console</module>
         <module>commons-project/commons-servlet</module>
         <module>commons-project/commons-feign</module>
         <module>commons-project/commons-metrics</module>
@@ -57,6 +58,7 @@
         <module>examples</module>
         <module>commons-project/commons-sysutils</module>
         <module>micros/h-lang</module>
+        <module>dash-ui</module>
     </modules>
 
     <properties>
