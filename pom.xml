@@ -60,6 +60,7 @@
         <module>micros/h-lang</module>
         <module>dash-ui</module>
         <module>micros/notification</module>
+        <module>open-api</module>
     </modules>
 
     <properties>
