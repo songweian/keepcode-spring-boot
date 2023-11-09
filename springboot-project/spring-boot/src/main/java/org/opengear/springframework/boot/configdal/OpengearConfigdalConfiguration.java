@@ -36,7 +36,7 @@ public class OpengearConfigdalConfiguration {
 
     @Bean
     @Qualifier("configdalPropertySource")
-    public PropertySource configdalPropertySource(ConfigdalDatasource configdalDatasource) {
+    public PropertySource<ConfigdalDatasource> configdalPropertySource(ConfigdalDatasource configdalDatasource) {
         return new ConfigdalPropertySource("configdal", configdalDatasource);
     }
 
