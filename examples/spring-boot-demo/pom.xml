@@ -41,7 +41,7 @@
         </dependency>
         <dependency>
             <groupId>org.opengear</groupId>
-            <artifactId>spring-boot-starter-configdal</artifactId>
+            <artifactId>spring-boot-starter-configdal-nacos</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
