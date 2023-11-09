@@ -1,8 +1,7 @@
 package org.opengear.configdal.examples.nacos;
 
 import org.opengear.configdal.client.CompositedConfigDalDatasource;
-import org.opengear.configdal.client.OpenGearConfigClient;
-import org.opengear.configdal.datasource.nacos.ConfigdalNacosDatasourceFactory;
+import org.opengear.configdal.client.OpenGearConfigdalClient;
 
 import java.util.Properties;
 
@@ -11,27 +10,27 @@ public class NacosConfigdalDemo {
         String dataId = "";
         String group = "DEFAULT_GROUP";
         Properties props = new Properties();
-        ConfigdalNacosDatasourceFactory factory = null;
-        props.setProperty("clientClass", "org.opengear.configdal.datasource.nacos.ConfigdalNacosDatasourceFactory");
-//        props.put(PropertyKeyConst.SERVER_ADDR, serverAddr);
-//        props.setProperty("secretKey", "");
-        props.setProperty("namespace", "");
-//        props.setProperty("ramRoleName", "");
-//        props.setProperty("username", "");
-//        props.setProperty("enableRemoteSyncConfig", "false");
-//        props.setProperty("configLongPollTimeout", "");
-//        props.setProperty("configRetryTime", "");
-//        props.setProperty("encode", "");
-        props.setProperty("serverAddr", "");
-//        props.setProperty("maxRetry", "");
-//        props.setProperty("clusterName", "");
-//        props.setProperty("password", "");
-//        props.setProperty("accessKey", "");
-//        props.setProperty("endpoint", "");
-
-        OpenGearConfigClient client = new OpenGearConfigClient(props);
-        CompositedConfigDalDatasource configdalDatasources = client.getCompositedConfigDalDatasource();
-        Object content = configdalDatasources.get("key");
+        props.setProperty("clientType", "nacos");
+        Properties nacosProperties = new Properties();
+//        nacosProperties.put(PropertyKeyConst.SERVER_ADDR, serverAddr);
+//        nacosProperties.setProperty("secretKey", "");
+//        nacosProperties.setProperty("namespace", "public");
+//        nacosProperties.setProperty("ramRoleName", "");
+//        nacosProperties.setProperty("username", "");
+//        nacosProperties.setProperty("enableRemoteSyncConfig", "false");
+//        nacosProperties.setProperty("configLongPollTimeout", "");
+//        nacosProperties.setProperty("configRetryTime", "");
+//        nacosProperties.setProperty("encode", "");
+        nacosProperties.setProperty("serverAddr", "localhost");
+//        nacosProperties.setProperty("maxRetry", "");
+//        nacosProperties.setProperty("clusterName", "");
+//        nacosProperties.setProperty("password", "");
+//        nacosProperties.setProperty("accessKey", "");
+//        nacosProperties.setProperty("endpoint", "");
+        props.put("nacosProperties", nacosProperties);
+        OpenGearConfigdalClient client = new OpenGearConfigdalClient(props);
+        CompositedConfigDalDatasource configdalDatasources = client.getConfigdalDatasource();
+        Object content = configdalDatasources.get("person.name");
         System.out.println(content);
     }
 }

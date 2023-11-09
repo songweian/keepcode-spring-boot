@@ -55,6 +55,7 @@
         <module>dash-ui</module>
         <module>dash-console</module>
         <module>signapi</module>
+        <module>commons-project/commons-json</module>
     </modules>
 
     <properties>

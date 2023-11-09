@@ -4,5 +4,5 @@ import java.util.Properties;
 
 public interface ConfigdalDatasourceFactory {
 
-    ConfigdalDatasource getDatasource(Properties properties);
+    ConfigdalDatasource getDatasource(Properties properties) throws ClassNotFoundException, InstantiationException, IllegalAccessException;
 }

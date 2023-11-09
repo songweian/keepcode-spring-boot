@@ -6,8 +6,9 @@ opengear.application:
   name: opengear-spring-boot-demo
   secret: 123456
 
-opengear.configdal.nacos:
-    server-addr:
-    namespace:
+opengear.configdal:
+  clientType: nacos
+  nacos:
+    serverAddr: localhost
     dataId: ""
     group: DEFAULT_GROUP

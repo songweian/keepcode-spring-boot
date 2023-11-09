@@ -20,6 +20,11 @@ public class CompositedConfigDalDatasource implements ConfigdalDatasource {
     }
 
     @Override
+    public String getContent(String appId, String environment, String cluster, String group) {
+        return null;
+    }
+
+    @Override
     public String getContent(String dataId, String group) {
         return null;
     }

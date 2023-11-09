@@ -19,6 +19,10 @@ public class ConfigdalExceptionUtils {
         throw new ConfigdalException(message, cause, enableSuppression, writableStackTrace);
     }
 
+    public static ClassNotFoundException clientError(String clientTypeError) {
+        throw new ConfigdalClientException(clientTypeError);
+    }
+
     public static class ConfigdalException extends RuntimeException {
 
         public ConfigdalException() {
