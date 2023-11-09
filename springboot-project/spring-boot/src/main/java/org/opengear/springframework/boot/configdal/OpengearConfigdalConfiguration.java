@@ -16,14 +16,14 @@ import org.springframework.core.env.MutablePropertySources;
 import org.springframework.core.env.PropertySource;
 
 @Configuration
-@EnableConfigurationProperties(ConfigdalProperties.class)
+@EnableConfigurationProperties(ConfigdalClientConfig.class)
 @ConditionalOnClass(OpenGearConfigdalClient.class)
 public class OpengearConfigdalConfiguration {
 
     @Bean
     @ConditionalOnMissingBean
-    public OpenGearConfigdalClient openGearConfigdalClient(ConfigdalProperties properties) {
-        return new OpenGearConfigdalClient(ConfigdalSupport.mapToProperties(properties.getConfigdal()));
+    public OpenGearConfigdalClient openGearConfigdalClient(ConfigdalClientConfig properties) {
+        return new OpenGearConfigdalClient(properties.toProperties());
     }
 
     @Bean
