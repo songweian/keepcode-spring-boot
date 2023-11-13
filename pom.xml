@@ -56,6 +56,8 @@
         <module>dash-console</module>
         <module>signapi</module>
         <module>commons-project/commons-json</module>
+        <module>opengear-dependencies</module>
+        <module>terramid</module>
     </modules>
 
     <properties>

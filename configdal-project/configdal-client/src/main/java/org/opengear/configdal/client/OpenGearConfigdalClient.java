@@ -1,12 +1,15 @@
 package org.opengear.configdal.client;
 
 import org.opengear.configdal.datasource.ConfigdalDatasource;
+import org.opengear.configdal.datasource.ConfigdalListener;
+import org.opengear.configdal.datasource.ConfigdalNotifier;
 
 import java.util.List;
 import java.util.Properties;
 
 public class OpenGearConfigdalClient {
 
+    private final ConfigdalNotifier configdalNotifier = new ConfigdalNotifier();
     private Properties properties;
 
     public OpenGearConfigdalClient(Properties properties) {
@@ -20,7 +23,7 @@ public class OpenGearConfigdalClient {
 
     protected ConfigdalDatasource createDatasource(Properties properties) {
         try {
-            CompositedConfigdalDatasourceFactory factory = new CompositedConfigdalDatasourceFactory();
+            CompositedConfigdalDatasourceFactory factory = new CompositedConfigdalDatasourceFactory(configdalNotifier);
             ConfigdalDatasource datasource = factory.getDatasource(properties);
             return datasource;
         } catch (Exception e) {
@@ -32,4 +35,7 @@ public class OpenGearConfigdalClient {
         return new CompositedConfigDalDatasource(getConfigdalDatasourceList());
     }
 
+    public void addListener(ConfigdalListener configdalListener) {
+        configdalNotifier.registListener(configdalListener);
+    }
 }
