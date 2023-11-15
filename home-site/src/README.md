@@ -1,5 +1,5 @@
 ---
-home: false
+home: true
 icon: home
 title: Home
 heroImage: /logo.svg
@@ -7,8 +7,8 @@ bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
-heroText: Project name
-tagline: You can place the description of the project here.
+heroText: TerraWare
+tagline: A middleware configuration management platform for SpringBoot applications.
 actions:
   - text: How to Use 💡
     link: ./demo/
