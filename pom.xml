@@ -58,6 +58,10 @@
         <module>commons-project/commons-json</module>
         <module>opengear-dependencies</module>
         <module>terramid</module>
+        <module>configdal-project/configdal-datasource-etcd</module>
+        <module>configdal-project/configdal-datasource-consul</module>
+        <module>configdal-project/configdal-datasource-mysql</module>
+        <module>configdal-project/configdal-datasource-zookeeper</module>
     </modules>
 
     <properties>
